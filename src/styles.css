@@ -102,3 +102,24 @@ h1,h2,h3{font-family:'DM Sans',sans-serif}h1{font-weight:500!important}h2{font-w
   object-fit: contain;
   object-position: center;
 }
+
+/* V9 — endereço e contatos premium */
+.care-location{margin-top:29px;border-top:1px solid #bed8d9;padding-top:25px;}
+.care-location-kicker{font-size:10px;font-weight:750;letter-spacing:1.65px;color:#078da2;}
+.care-location-heading{display:flex;align-items:center;gap:10px;margin:13px 0 10px;font-size:20px;color:#153d48;}
+.care-location-heading svg{color:#078da2;flex-shrink:0;}
+.care-location address{font-style:normal;font-size:14px;line-height:1.75;color:#4a6970;padding-left:30px;}
+.care-location-map{display:inline-flex;align-items:center;gap:9px;margin:15px 0 0 30px;color:#007f96;text-decoration:none;font-weight:650;font-size:13px;border-bottom:1px solid currentColor;padding-bottom:4px;}
+.care-location-map:hover{color:#005b6c;}
+.care-location-secondary{margin-top:24px;padding-top:21px;}
+.care-location-secondary p{margin:0;color:#507079;line-height:1.65;font-size:14px;}
+.contact-detail .whatsapp-contact-link{display:flex;align-items:center;gap:17px;text-decoration:none;padding:11px 0 3px;min-width:0;}
+.whatsapp-contact-icon{display:grid;place-items:center;flex-shrink:0;width:48px;height:48px;background:#0c7b77;color:#fff;}
+.whatsapp-contact-icon svg{width:25px;height:25px;display:block;}
+.whatsapp-contact-copy{display:flex;flex-direction:column;gap:5px;letter-spacing:normal;min-width:0;}
+.whatsapp-contact-copy strong{font-size:clamp(17px,2vw,22px);line-height:1.2;font-weight:600;color:#123c47;}
+.whatsapp-contact-copy small{font-size:12px;font-weight:450;color:#50727a;letter-spacing:.1px;}
+.contact-detail .whatsapp-contact-arrow{margin-left:auto;flex-shrink:0;color:#0c7b88;}
+.contact-detail .whatsapp-contact-link:hover .whatsapp-contact-icon{background:#09615d;}
+.contact-detail .whatsapp-contact-link:hover .whatsapp-contact-arrow{transform:translate(4px,-4px);}
+@media(max-width:760px){.care-location{margin-top:25px}.whatsapp-contact-icon{width:44px;height:44px}.contact-detail .whatsapp-contact-link{gap:12px}.whatsapp-contact-copy strong{font-size:17px}.care-location-heading{font-size:18px}}

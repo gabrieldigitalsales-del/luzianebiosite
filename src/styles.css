@@ -123,3 +123,13 @@ h1,h2,h3{font-family:'DM Sans',sans-serif}h1{font-weight:500!important}h2{font-w
 .contact-detail .whatsapp-contact-link:hover .whatsapp-contact-icon{background:#09615d;}
 .contact-detail .whatsapp-contact-link:hover .whatsapp-contact-arrow{transform:translate(4px,-4px);}
 @media(max-width:760px){.care-location{margin-top:25px}.whatsapp-contact-icon{width:44px;height:44px}.contact-detail .whatsapp-contact-link{gap:12px}.whatsapp-contact-copy strong{font-size:17px}.care-location-heading{font-size:18px}}
+
+/* Contatos premium: marca WhatsApp monocromática, sem contêiner visual */
+.contact-detail .whatsapp-contact-link{transition:opacity .25s ease;}
+.whatsapp-contact-icon{width:34px!important;height:38px!important;display:flex!important;align-items:center;justify-content:center;background:transparent!important;color:#849399!important;border:0!important;border-radius:0!important;box-shadow:none!important;padding:0!important;}
+.whatsapp-contact-icon svg{width:27px!important;height:27px!important;fill:currentColor!important;display:block;}
+.contact-detail .whatsapp-contact-link:hover .whatsapp-contact-icon{background:transparent!important;color:#5e747b!important;}
+.contact-detail .whatsapp-contact-link:hover{opacity:.8;}
+.whatsapp-contact-copy strong{letter-spacing:-.3px!important;font-weight:600;}
+.whatsapp-contact-arrow{transition:transform .25s ease;}
+@media(max-width:760px){.whatsapp-contact-icon{width:30px!important;height:36px!important}}
